@@ -32,8 +32,8 @@ repos:
           - pluggy>=1.5.0
           - packaging
           - tomli
-          - types-pkg_resources
           - types-tabulate
+          - types-setuptools
             # for mypy running on python>=3.11 since exceptiongroup is only a dependency
             # on <3.11
           - exceptiongroup>=1.0.0rc8
