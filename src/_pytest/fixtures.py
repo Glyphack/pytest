@@ -1318,7 +1318,7 @@ def fixture(
 def yield_fixture(
     fixture_function=None,
     *args,
-    scope: _ScopeName = "function",
+    scope="function",
     params=None,
     autouse=False,
     ids=None,
